@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    padding: 1em;
+    background-color: #eee;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Serif', serif;
+    font-size: 2em;
+    text-align: center;
+    text-wrap: balance;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 0.5em;
+    margin: 0;
+}
+
+table tr:not(:first-child) th,
+table tr:not(:first-child) td {
+    border-top: solid 1px #808080;
+}
+
+table th {
+    width: 50%;
+}
+
+main {
+    max-width: 1024px;
+    width: 100%;
+    margin: 1em auto;
+}
+
+#street-address-form {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+}
+
+#street-address-form > input,
+#street-address-form > button {
+    padding: 1em;
+    display: block;
+    border: none;
+}
+
+#street-address-form > input {
+    flex-grow: 1;
+}
+
+#street-address-form > button[type="submit"] {
+    width: 10em;
+    cursor: pointer;
+}
+
+#results {
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+    background-color: white;
+    width: 100%;
+}
+
+#rep-photo {
+    max-width: 100%;
+    max-height: 50vh;
+}

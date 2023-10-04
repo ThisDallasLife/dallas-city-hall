@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dallas City Hall</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Find City Council Rep by Street Address</h1>
+        <form action="" id="street-address-form">
+            <input type="text" name="street-address" class="form-control" placeholder="Enter your street address...">
+            <button type="submit">Search</button>
+        </form>
+        <p>Need an example? Try <i>1509 Main St</i></p>
+        <table id="results" cellspacing="0">
+            <tr>
+                <th>Your Address</th>
+                <td id="street-address-field"></td>
+            </tr>
+            <tr>
+                <th>Council District</th>
+                <td id="district-field"></td>
+            </tr>
+            <tr>
+                <th>Representative</th>
+                <td id="name-field"></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td id="email-field"></td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td id="phone-field"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><img id="rep-photo" /></td>
+            </tr>
+        </table>
+    </main>
+    <script src="./CityCouncil.js"></script>
+    <script src="./CityGIS.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
